@@ -1,6 +1,7 @@
 import axios from 'axios';
-const baseUrl = import.meta.env.VITE_BACKEND_API
 
+// const baseUrl = import.meta.env.VITE_BACKEND_API
+const baseUrl = 'http://localhost:3000'
 
 const getAll = () => {
     const request = axios.get(`${baseUrl}/api/persons`)
